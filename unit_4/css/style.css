@@ -15,6 +15,12 @@ header {
 	position: relative;
 }
 
+.clearfloat:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
 #nav {
 	position: absolute;
 	top: 50%;
