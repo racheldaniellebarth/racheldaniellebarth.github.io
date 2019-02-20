@@ -1,8 +1,9 @@
 * {padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
-header {background-color: #34B2AE;
+header {background-color: black;
 		color: white;
 		padding: 30px;
 }
@@ -10,5 +11,30 @@ header {background-color: #34B2AE;
 }
 h1, p, h2 {
 	font-family: 'Josefin Slab', serif;
+	color: white;
+}
+
+img {
+	display: block;
+	width: 100%
+}
+
+#thumbnailparent {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thumbnailnav {
+	display: block;
+	width: 25%;
+	position: relative;
+	/*float: left;*/
+}
+
+.thumbnailnav h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	color: white;
 }
