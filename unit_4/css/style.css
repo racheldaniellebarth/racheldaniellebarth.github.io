@@ -9,17 +9,11 @@ body {
 }
 
 header {
-	color: black;
 	/*padding: 30px;*/
 	background-color: #E7EAFF;
 	position: relative;
 }
 
-.clearfloat:after {
-	content:"";
-	display: block;
-	clear: both;
-}
 
 #nav {
 	position: absolute;
