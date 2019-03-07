@@ -1,0 +1,149 @@
+* {padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;	
+	font-family: 'Poppins', sans-serif;
+	background-image: url(../images/watercolor.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 80% auto;
+	min-height: 100vh;
+}
+
+header {
+	/*padding: 30px;*/
+	/*position: relative;*/
+	padding-top: 50px;
+	background-image: url(../images/backgroundcolor.jpg);
+	/*background-color: #FFED74;*/
+/*	border-bottom: 10px solid #B986E8;*/
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+#me {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#nav {
+	/*position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);*/
+	text-align: center;
+	/*background-color: #E8C66A;*/
+}
+
+h1 {
+	color: black;
+	font-size: 2em;
+}
+
+h2 {
+	color: black;
+	font-family: 'Parisienne', cursive;
+	font-size: 2.8em;
+}
+
+#nav a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	font-size: 1em;
+}
+
+#nav a:hover {
+	color: #2F89D2;
+}
+
+main {background-color: #E7EAFF;
+}
+
+p {
+	color: #E7EAFF;
+}
+
+img {
+	display: block;
+	width: 100%
+}
+
+/*#thumbnailparent {
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+.clearfloat:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.thumbnailnav {
+	display: block;
+	width: 25%;
+	position: relative;
+	float: left;
+}
+
+.thumbnailnav h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #E7EAFF;
+	font-family: 'Parisienne', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 1em;
+}
+
+.thumbnailnav:hover h3 {
+	color: #88CAFF;
+}
+
+#about {
+	width: 100%;
+	/*position: absolute;*/
+/*	margin-top: 40px;
+	padding-top: 40px;*/
+	text-align: center;
+}
+
+#about h2 {
+	color: black;
+	size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 2em;
+}
+
+#about a {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	font-size: 1em;
+	text-align: center;
+}
+
+#about a:hover {
+	color: #2F89D2;
+}
+
+h5 {
+	color: black;
+	padding-bottom: 30px;
+	text-align: center;
+/*	font-family: 'Poppins', sans-serif;
+*/	font-size: .5em;
+	text-transform: uppercase;
+}
